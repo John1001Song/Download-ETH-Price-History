@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e82ef5-984a-4cd0-9b6a-cc2653dd2cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Download-ETH-Price-History.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Download-ETH-Price-History.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-28_2018-09-29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-28_2018-09-29.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-30_2018-10-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-30_2018-10-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-08_2018-10-09.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-08_2018-10-09.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_ether_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_ether_price.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,99 +21,54 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="83" />
-          <entry key="py" value="11" />
+          <entry key="csv" value="85" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="83" />
-          <entry key="Python" value="11" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2616" />
+          <entry key="py" value="3796" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2616" />
+          <entry key="Python" value="3796" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-25_2018-09-26.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7847" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-24_2018-09-25.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-22_2018-09-23.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-21_2018-09-22.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8237" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-19_2018-09-20.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-18_2018-09-19.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-16_2018-09-17.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-15_2018-09-16.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-13_2018-09-14.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8252" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-12_2018-09-13.csv">
+        <entry file="file://$PROJECT_DIR$/get_ether_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="564" column="22" lean-forward="true" selection-start-line="564" selection-start-column="22" selection-end-line="564" selection-end-column="22" />
+            <state relative-caret-position="537">
+              <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1540067038254" expanded="true" signature="602:1322" ph="..." />
+                <marker date="1540067038254" expanded="true" signature="3447:3916" ph="..." />
+                <marker date="1540067038254" expanded="true" signature="5304:5409" ph="..." />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-16_2018-10-17.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8248" />
           </provider>
         </entry>
       </file>
@@ -139,6 +88,9 @@
       <find>CoinDesk</find>
       <find>C</find>
       <find>coin</find>
+      <find>2018, 10, 17</find>
+      <find>2018, 10, 17, 10</find>
+      <find>2018, 10, 17, 10, 0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,10 +100,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/download_eth_price_history.py" />
-        <option value="$PROJECT_DIR$/get_ether_price.py" />
         <option value="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-08_2018-10-09.csv" />
         <option value="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-30_2018-10-01.csv" />
         <option value="$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-28_2018-09-29.csv" />
+        <option value="$PROJECT_DIR$/get_ether_price.py" />
       </list>
     </option>
   </component>
@@ -250,7 +202,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2739726" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26849315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,28 +239,6 @@
         <state relative-caret-position="171">
           <caret line="984" selection-start-line="984" selection-end-line="984" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_ether_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1540058214268" expanded="true" signature="241:246" ph="..." />
-            <marker date="1540058214268" expanded="true" signature="564:1284" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-16_2018-10-17.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-13_2018-10-14.csv">
@@ -372,55 +302,76 @@
         <state relative-caret-position="-8027" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-25_2018-09-26.csv">
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-12_2018-09-13.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7847" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-24_2018-09-25.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-22_2018-09-23.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-21_2018-09-22.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8237" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-19_2018-09-20.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-18_2018-09-19.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-16_2018-09-17.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-15_2018-09-16.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
+        <state relative-caret-position="316">
+          <caret line="568" column="22" lean-forward="true" selection-start-line="568" selection-start-column="22" selection-end-line="568" selection-end-column="22" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-13_2018-09-14.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252" />
+        <state relative-caret-position="-8204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-12_2018-09-13.csv">
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-15_2018-09-16.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="564" column="22" lean-forward="true" selection-start-line="564" selection-start-column="22" selection-end-line="564" selection-end-column="22" />
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-16_2018-09-17.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-18_2018-09-19.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-19_2018-09-20.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-21_2018-09-22.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-22_2018-09-23.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-24_2018-09-25.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-09-25_2018-09-26.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-16_2018-10-17.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_ether_price.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1540067038254" expanded="true" signature="602:1322" ph="..." />
+            <marker date="1540067038254" expanded="true" signature="3447:3916" ph="..." />
+            <marker date="1540067038254" expanded="true" signature="5304:5409" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

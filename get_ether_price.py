@@ -1,8 +1,10 @@
 import os
 import pandas as pd
 from datetime import datetime
+from datetime import time
 from dateutil.parser import parse
 from collections import OrderedDict
+import math
 
 # create the Ether_Price instance once only, because it will load all history price at once
 class Ether_Price:
@@ -52,7 +54,6 @@ class Ether_Price:
             # print("*******")
             # print(row['Date'])
             # print(row)
-            # if not ("CoinDesk" in row['Date']) and not ("coindesk" in row['Date']) and not ("CoinDesk" in row['Close Price']) and not ("coindesk" in row['Close Price']):
             try:
                 current_datetime = datetime.strptime(row['Date'], '%Y/%m/%d %H:%M')
             # self.history[row['Date']] = row['Close Price']
@@ -65,20 +66,25 @@ class Ether_Price:
                 print("Exception at {}: {}".format(file, row))
                 pass
 
-    def parse_tx_date_str_to_date_obj(self, date_str):
-        # print(date_str)
-        raw_date_str_date_time = date_str.split(' +')[0]
-        raw_date = raw_date_str_date_time.split(' ')[0]
-        raw_time_list = raw_date_str_date_time.split(' ')[1].split(':')
-        # print(raw_date)
-        # print(raw_time_list[:2])
-        date_time_str = ':'
-        date_time_str = date_time_str.join(raw_time_list[:2])
-        date_time_str = raw_date + " " + date_time_str
-        # print(date_time_str)
+    def parse_tx_date_str_to_date_obj(self, raw_date_time_str):
+        date_time_dict = dict()
 
-        date_obj = datetime.strptime(date_time_str, '%Y-%m-%d %H:%M')
-        # date_obj_2 = datetime.strptime('2018/10/17 10:01', '%Y/%m/%d %H:%M')
+        # '2018-10-17 10:00:00.00116705 +0000 UTC m=+492441.852524317'
+        # print(raw_date_time_str)
+        date_time_str = raw_date_time_str.split(' +')[0]
+        # 2018-10-17 10:00:00.00116705
+
+        date_str = date_time_str.split(' ')[0]
+        # 2018-10-17
+        date_time_dict['year'] = date_str.split('-')[0]
+        date_time_dict['month'] = date_str.split('-')[1]
+        date_time_dict['day'] = date_str.split('-')[2]
+
+        time_str = date_time_str.split(' ')[1]
+        # 10:00:00.00116705
+        date_time_dict['hour'] = time_str.split(':')[0]
+        date_time_dict['minute'] = time_str.split(':')[1]
+        date_time_dict['second'] = time_str.split(":")[2]
 
         # print("date str: ", date_str)
         # print("date obj 1: ", date_obj)
@@ -86,38 +92,74 @@ class Ether_Price:
         # print("obj1 == obj2: ", date_obj == date_obj_2)
         # print("obj1 > obj2: ", date_obj > date_obj_2)
         # print("obj1 < obj2: ", date_obj < date_obj_2)
+        return date_time_dict
 
-        return date_obj
+    def get_closest_date_time(self, date_time_dict):
+        this_dict = date_time_dict
+        minute_str = date_time_dict['minute']
+
+        minute_str_list = list(minute_str)
+        # print(minute_str_list)
+        least_int = int(minute_str_list[1])
+
+        if least_int < 5:
+            minute_str_list[1] = str(0)
+        else:
+            minute_str_list[1] = str(5)
+
+        minute_str = ''.join(minute_str_list)
+        this_dict['minute'] = minute_str
+        # print(this_dict)
+        return this_dict
 
     # input the original date_time from tx
     # return the ether price most close to the date_time
     def get_price(self, date_time):
-        tx_date_time = self.parse_tx_date_str_to_date_obj(date_time)
+        tx_date_time_dict = self.parse_tx_date_str_to_date_obj(date_time)
+        # print(tx_date_time_dict)
+        tx_date_time_dict = self.get_closest_date_time(tx_date_time_dict)
+        # print(tx_date_time_dict)
+        datetime_obj = datetime(int(tx_date_time_dict['year']), int(tx_date_time_dict['month']),
+                                int(tx_date_time_dict['day']), int(tx_date_time_dict['hour']),
+                                int(tx_date_time_dict['minute']))
+        # print(self.history[datetime_obj])
+        # print(self.history[datetime.strptime('2018-10-17 10:00', '%Y-%m-%d %H:%M')])
 
-        pass
+        return self.history[datetime_obj]
+
 
     def start(self):
         [self.load_one_file(file) for file in self.files]
         # [self.clean_one_file(file) for file in self.files]
 
         # self.load_one_file('coindesk-ETH-close_data-2018-09-28_2018-09-29.csv')
-        print(self.history)
+        # print(self.history)
         # data = pd.DataFrame.from_dict(self.history)
         # data = data.sort_values('Date')
         # self.history_key = sorted(self.history)
-        # data = OrderedDict(sorted(self.history.items(), key=lambda t: t[0]))
+
+        # sort the history by its key value
+        self.history = OrderedDict(sorted(self.history.items(), key=lambda t: t[0]))
         # data = OrderedDict(self.history)
         # data2 = OrderedDict()
+        # print(self.history)
+        # print(self.history.keys())
+        # print(self.history.values())
+        # print(self.history[datetime(2018, 9, 12, 0, 0)])
 
         # print(self.history['2018/9/13 0:00'])
 
 
 
 if __name__ == '__main__':
-    Ether_Price().start()
-    # Ether_Price().parse_tx_date_str_to_date_obj('2018-10-17 10:00:00.00116705 +0000 UTC m=+492441.852524317')
+    ep = Ether_Price()
+    ep.start()
+    # print(ep.history)
+    # print(ep.history.keys())
+    # print(ep.history.values())
+    # price = ep.get_price('2018-10-16 00:17:00.00116705 +0000 UTC m=+492441.852524317')
     # Ether_Price().parse_date_str_to_date_obj('2018/10/16 18:50')
-
+    # print(price)
 
 
 # tx in raw data:
