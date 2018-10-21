@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e82ef5-984a-4cd0-9b6a-cc2653dd2cbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_ether_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_ether_price.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,9 +15,9 @@
     <session id="-255254857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,27 +34,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3832" />
+          <entry key="py" value="3836" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3832" />
+          <entry key="Python" value="3836" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_ether_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="-697">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1540087308153" expanded="true" signature="539:895" ph="..." />
-                <marker date="1540087308153" expanded="true" signature="2394:2840" ph="..." />
+                <marker date="1540087652214" expanded="true" signature="539:907" ph="..." />
+                <marker date="1540087652214" expanded="true" signature="2408:2854" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,9 +67,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8248" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,6 +89,7 @@
       <find>2018, 10, 17</find>
       <find>2018, 10, 17, 10</find>
       <find>2018, 10, 17, 10, 0</find>
+      <find>+</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,10 +106,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="1080" />
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
+    <option name="y" value="1103" />
+    <option name="width" value="1190" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,15 +194,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1080" width="1280" height="800" extended-state="0" />
+    <frame x="19" y="1103" width="1190" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1096108" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15911035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.16849315" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.18276374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,25 +354,23 @@
         <state relative-caret-position="-7799" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
+    <entry file="file://$PROJECT_DIR$/get_ether_price.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8248" />
+        <state relative-caret-position="-697">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1540087652214" expanded="true" signature="539:907" ph="..." />
+            <marker date="1540087652214" expanded="true" signature="2408:2854" ph="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-16_2018-10-17.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_ether_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1540087308153" expanded="true" signature="539:895" ph="..." />
-            <marker date="1540087308153" expanded="true" signature="2394:2840" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ether_historical_price/coindesk-ETH-close_data-2018-10-15_2018-10-16.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
